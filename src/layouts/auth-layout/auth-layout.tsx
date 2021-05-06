@@ -1,10 +1,9 @@
 import { Layout } from 'antd';
 
-export default function MainLayout({ children }: { children: any }) {
-    const { Header, Footer, Content } = Layout;
+export default function AuthLayout({ children }: { children: any }) {
+    const { Footer, Content } = Layout;
     return (
         <Layout>
-            <Header>Header</Header>
             <Content>{children}</Content>
             <Footer>Footer</Footer>
         </Layout>
